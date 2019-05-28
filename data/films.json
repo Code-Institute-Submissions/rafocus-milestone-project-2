@@ -1,0 +1,452 @@
+[
+    {
+         "rank": 1, 
+         "name": "The Godfather", 
+         "date": "1972", 
+         "genre":"crime",
+         "gross": 134.97,
+         "oscars": 3, 
+         "nominations":11
+    },
+    { 
+        "rank": 2, 
+        "name": "The Shawshank Redemption", 
+        "date": "1994", 
+        "genre":"drama",
+        "gross": 28.34, 
+        "oscars": 0, 
+        "nominations":7
+    },
+    { 
+        "rank": 3, 
+        "name": "Schindler's List", 
+        "date": "1993", 
+        "genre":"history",
+        "gross": 96.07,
+        "oscars": 7, 
+        "nominations":12 
+    },
+    { 
+        "rank": 4, 
+        "name": "Raging Bull", 
+        "date": "1980", 
+        "genre":"drama",
+        "gross": 23.38, 
+        "oscars": 2, 
+        "nominations":8 
+    },
+    { 
+        "rank": 5, 
+        "name": "Casablanca", 
+        "date": "1942", 
+        "genre":"romance",
+        "gross": 1.02, 
+        "oscars": 3, 
+        "nominations":8 
+    },
+    { 
+        "rank": 6, 
+        "name": "Citizen Kane", 
+        "date": "1941", 
+        "genre":"drama",
+        "gross": 1.59, 
+        "oscars": 1, 
+        "nominations":9 
+    },
+    {
+         "rank": 7, 
+         "name": "Gone With The Wind", 
+         "date": "1939", 
+         "genre":"adventure",
+         "gross": 198.68, 
+         "Oscars": 8,
+         "nominations": 13 
+        },
+    { 
+        "rank": 8, 
+        "name": "The Wizard of OOne Flew Over the Cuckoo's Nest", 
+        "date": "1975", 
+        "genre":"drama",
+        "gross": 2.08, 
+        "oscars": 5, 
+        "nominations":9
+    },
+    { 
+        "rank": 9, 
+        "name": "Lawrence of Arabia", 
+        "date": "1962", 
+        "genre":"history",
+        "gross": 44.82, 
+        "oscars": 7, 
+        "nominations":10 
+    },
+    { 
+        "rank": 10, 
+        "name": "One Flew Over the Cuckoo's Nest ", 
+        "date": "1975", 
+        "genre":"drama",
+        "gross": 112, 
+        "oscars": 5, 
+        "nominations":9 
+    },
+    { 
+        "rank": 11, 
+        "name": "Vertigo", 
+        "date": "1958", 
+        "genre":"thriller",
+        "gross": 3.20, 
+        "oscars": 0, 
+        "nominations":2 
+    },
+    { 
+        "rank": 12, 
+        "name": "Psycho", 
+        "date": "1960", 
+        "genre":"thriller",
+        "gross": 32, 
+        "oscars": 0, 
+        "nominations": 4 
+    },
+    { 
+        "rank": 13, 
+        "name": "The Godfather: Part II", 
+        "date": "1974", 
+        "genre":"crime",
+        "gross": 57.30, 
+        "oscars": 6, 
+        "nominations": 11 
+    },
+    { 
+        "rank": 14, 
+        "name": "On the Waterfront", 
+        "date": "1954", 
+        "genre":"thriller",
+        "gross": 9.60, 
+        "oscars": 8, 
+        "nominations": 12
+    },
+    { 
+        "rank": 15, 
+        "name": "Sunset Boulevard", 
+        "date": "1950", 
+        "genre":"drama",
+        "gross": 5.3, 
+        "oscars": 3, 
+        "nominations": 11
+    },
+    { 
+        "rank": 16, 
+        "name": "Forrest Gump", 
+        "date": "1994", 
+        "genre":"romance",
+        "gross": 330.25, 
+        "oscars": 6, 
+        "nominations": 13
+    },
+    { 
+        "rank": 17, 
+        "name": "The Sound of Music", 
+        "date": "1965", 
+        "genre":"drama",
+        "gross": 163.2, 
+        "oscars": 5, 
+        "nominations": 10
+    },
+    { 
+        "rank": 18, 
+        "name": "12 Angry Men", 
+        "date": "1957", 
+        "genre":"drama",
+        "gross": 4.36, 
+        "oscars": 0, 
+        "nominations": 3
+    },
+    { 
+        "rank": 19, 
+        "name": "West Side Story", 
+        "date": "1961", 
+        "genre":"musical",
+        "gross": 43.66, 
+        "oscars": 10, 
+        "nominations": 11
+    },
+    { 
+        "rank": 20, 
+        "name": "Star Wars: Episode IV - A New Hope", 
+        "date": "1977", 
+        "genre":"adventure",
+        "gross": 322.74, 
+        "oscars": 6, 
+        "nominations": 10
+    },
+    { 
+        "rank": 21, 
+        "name": "2001: A Space Odyssey", 
+        "date": "1968", 
+        "genre":"sci-fi",
+        "gross": 56.95, 
+        "oscars": 1, 
+        "nominations": 4
+    },
+    { 
+        "rank": 22, 
+        "name": "E.T. the Extra-Terrestrial", 
+        "date": "1982", 
+        "genre":"sci-fi",
+        "gross": 435.11, 
+        "oscars": 4, 
+        "nominations": 9
+    },
+    { 
+        "rank": 23, 
+        "name": "The Silence of the Lambs", 
+        "date": "1991", 
+        "genre":"thriller",
+        "gross": 130.74, 
+        "oscars": 5, 
+        "nominations": 7
+    },
+    { 
+        "rank": 24, 
+        "name": "Chinatown", 
+        "date": "1974", 
+        "genre":"drama",
+        "gross": 29.20, 
+        "oscars": 1, 
+        "nominations": 11
+    },
+    { 
+        "rank": 25, 
+        "name": "The Bridge on the River Kwai", 
+        "date": "1957", 
+        "genre":"war",
+        "gross": 44.91, 
+        "oscars": 7, 
+        "nominations": 8
+    },
+    { 
+        "rank": 26, 
+        "name": "Singin' in the Rain", 
+        "date": "1952", 
+        "genre":"musical",
+        "gross": 8.82, 
+        "oscars": 0, 
+        "nominations": 2
+    },
+    { 
+        "rank": 27, 
+        "name": "It's a Wonderful Life", 
+        "date": "1946", 
+        "genre":"fantasy",
+        "gross": 3.3, 
+        "oscars": 0, 
+        "nominations": 5
+    },
+    { 
+        "rank": 28, 
+        "name": "Dr. Strangelove", 
+        "date": "1964", 
+        "genre":"comedy",
+        "gross": 0.28, 
+        "oscars": 0, 
+        "nominations": 4
+    },
+    { 
+        "rank": 29, 
+        "name": "Some Like It Hot", 
+        "date": "1959", 
+        "genre":"comedy",
+        "gross": 25.00, 
+        "oscars": 1, 
+        "nominations": 6
+    },
+    { 
+        "rank": 30, 
+        "name": "Ben-Hur", 
+        "date": "1959", 
+        "genre":"history",
+        "gross": 74.70, 
+        "oscars": 11, 
+        "nominations": 12
+    },
+    { 
+        "rank": 31, 
+        "name": "Apocalypse Now", 
+        "date": "1979", 
+        "genre":"war",
+        "gross": 83.47, 
+        "oscars": 2, 
+        "nominations": 8
+    },
+    { 
+        "rank": 32, 
+        "name": "Amadeus", 
+        "date": "1984", 
+        "genre":"history",
+        "gross": 51.97, 
+        "oscars": 8, 
+        "nominations": 11
+    },
+    { 
+        "rank": 33, 
+        "name": "The Lord of the Rings", 
+        "date": "2003", 
+        "genre":"fantasy",
+        "gross": 377.85, 
+        "oscars": 11, 
+        "nominations": 11
+    },
+    { 
+        "rank": 34, 
+        "name": "Gladiator", 
+        "date": "2000", 
+        "genre":"adventure",
+        "gross": 187.71, 
+        "oscars": 5, 
+        "nominations": 12
+    },
+    { 
+        "rank": 35, 
+        "name": "Titanic", 
+        "date": "1997", 
+        "genre":"romance",
+        "gross": 659.33, 
+        "oscars": 11, 
+        "nominations": 14
+    },
+    { 
+        "rank": 36, 
+        "name": "From Here to Eternity", 
+        "date": "1953", 
+        "genre":"romance",
+        "gross": 30.50, 
+        "oscars": 8, 
+        "nominations":13 
+    },
+    { 
+        "rank": 37, 
+        "name": "Saving Private Ryan", 
+        "date": "1998", 
+        "genre":"war",
+        "gross": 216.54, 
+        "oscars": 5, 
+        "nominations": 11
+    },
+    { 
+        "rank": 38, 
+        "name": "Unforgiven", 
+        "date": "1992", 
+        "genre":"drama",
+        "gross": 101.16, 
+        "oscars": 4, 
+        "nominations": 9
+    },
+    { 
+        "rank": 39, 
+        "name": "Raiders of the Lost Ark", 
+        "date": "1981", 
+        "genre":"adventure",
+        "gross": 248.16, 
+        "oscars": 4, 
+        "nominations": 8
+    },
+    { 
+        "rank": 40, 
+        "name": "Rocky", 
+        "date": "1976", 
+        "genre":"drama",
+        "gross": 117.24, 
+        "oscars": 3, 
+        "nominations": 10
+    },
+    { 
+        "rank": 41, 
+        "name": "A Streetcar Named Desire", 
+        "date": "1951", 
+        "genre":"drama",
+        "gross": 8.00, 
+        "oscars": 4, 
+        "nominations": 12
+    },
+    { 
+        "rank": 42, 
+        "name": "The Philadelphia Story", 
+        "date": "1940", 
+        "genre":"comedy",
+        "gross": 3.3, 
+        "oscars": 2, 
+        "nominations": 6
+    },
+    { 
+        "rank": 43, 
+        "name": "To Kill a Mockingbird", 
+        "date": "1962", 
+        "genre":"drama",
+        "gross": 13.1, 
+        "oscars": 3, 
+        "nominations": 8
+    },
+    { 
+        "rank": 44, 
+        "name": "An American in Paris", 
+        "date": "1951", 
+        "genre":"romance",
+        "gross": 4.50, 
+        "oscars": 6, 
+        "nominations": 8
+    },
+    { 
+        "rank": 45, 
+        "name": "The Best Years of Our Lives", 
+        "date": "1946", 
+        "genre":"war",
+        "gross": 23.65, 
+        "oscars": 7, 
+        "nominations": 8
+    },
+    { 
+        "rank": 46, 
+        "name": "My Fair Lady", 
+        "date": "1964", 
+        "genre":"musical",
+        "gross": 72.00, 
+        "oscars": 8, 
+        "nominations": 12
+    },
+    { 
+        "rank": 47, 
+        "name": "A Clockwork Orange", 
+        "date": "1971", 
+        "genre":"sci-fi",
+        "gross": 26.6, 
+        "oscars": 0, 
+        "nominations": 4
+    },
+    { 
+        "rank": 48, 
+        "name": "Doctor Zhivago", 
+        "date": "1965", 
+        "genre":"war",
+        "gross": 111.72, 
+        "oscars": 5, 
+        "nominations": 10
+    },
+    { 
+        "rank": 49, 
+        "name": "The Searchers", 
+        "date": "1956", 
+        "genre":"adventure",
+        "gross": 3.75, 
+        "oscars": 0, 
+        "nominations": 0
+    },
+    { 
+        "rank": 50, 
+        "name": "Jaws", 
+        "date": "1975", 
+        "genre":"thriller",
+        "gross": 260.00, 
+        "oscars": 3, 
+        "nominations": 4
+    }
+]
