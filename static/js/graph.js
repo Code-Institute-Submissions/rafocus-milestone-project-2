@@ -1,16 +1,24 @@
 queue()
-    .defer(d3.json, "data/movies.json")
-    .await(graph);
+    .defer(d3.json, "data/films.json")
+    .await(makeGraph);
 
 
-function makeGraph(error, moviesData) {
+function makeGraph(error, data) {
 
-    let ndx = crossfilter(moviesData);
+    let ndx = crossfilter(data);
 
     //  define dimensions
-    dateDim = ndx.dimension(function(d) { return year;});
-    genreDim = ndx.dimension(function(d) { return genre;});
-    directorDim = ndx.dimension(function(d) { return director;});
+    genreDimension = ndx.dimension(d=> d.genre)
+    // define groups
+    genreGroup = genreDimension.group()
+    // charts
+
+    let piechart1 = dc.pieChart("#chart")
+                    .width(400)
+                    .height(300)
+                    .dimension(genreDimension)
+                    .group(genreGroup)
+    
 
     dc.renderAll();
 }
