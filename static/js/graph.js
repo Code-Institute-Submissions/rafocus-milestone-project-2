@@ -75,6 +75,15 @@ function makeGraph(error, data) {
                     barchart1.xAxis().ticks(5)
                     barchart1.yAxis().ticks(5)
 
+    let barchart2 = dc.barChart("#barchart2")
+                    .width(600)
+                    .height(300)
+                    .dimension(genreDimension)
+                    .group(genreGroup)
+                    .x(d3.scale.ordinal().domain([]))
+                    .xUnits(dc.units.ordinal)
+                    .yAxis().ticks(5)
+
 
     dc.renderAll();
 }
