@@ -15,3 +15,11 @@ footer {
     height: 6rem;
     background-color: rgb(97, 111, 126);
 }
+#barchart2 .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-20deg);
+}
+#barchart3 .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+}
