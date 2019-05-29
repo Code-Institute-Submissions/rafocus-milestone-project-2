@@ -12,12 +12,14 @@ function makeGraph(error, data) {
     oscarsDimension = ndx.dimension(d => d.oscars)
     bubbleDimension = ndx.dimension(d => [d.rank, d.nominations, d.name])
     grossDimension = ndx.dimension(d=> Math.floor(d.gross/10)*10)
+    dateDimension = ndx.dimension(d=> d.date)
 
     // define groups
     genreGroup = genreDimension.group()
     oscarsGroup = oscarsDimension.group()
     bubbleGroup = bubbleDimension.group().reduceSum(d => d.oscars)
     grossGroup = grossDimension.group().reduceSum(d=> d.nominations)
+    dateGroup = dateDimension.group().reduceSum(d=> d.gross)
 
     // charts
     let piechart1 = dc.pieChart("#piechart1")
@@ -83,6 +85,15 @@ function makeGraph(error, data) {
                     .x(d3.scale.ordinal().domain([]))
                     .xUnits(dc.units.ordinal)
                     .yAxis().ticks(5)
+
+    let barchart3 = dc.barChart("#barchart3")
+                    .width(600)
+                    .height(300)
+                    .dimension(dateDimension)
+                    .group(dateGroup)
+                    .x(d3.scale.ordinal().domain([]))
+                    .xUnits(dc.units.ordinal)
+                    barchart3.xAxis().ticks(10)
 
 
     dc.renderAll();
