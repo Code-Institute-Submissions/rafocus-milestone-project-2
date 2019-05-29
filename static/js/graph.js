@@ -5,13 +5,14 @@ queue()
 
 function makeGraph(error, data) {
 
+    //  create crossfilter instance using the json data
     let ndx = crossfilter(data);
 
     //  define dimensions
     genreDimension = ndx.dimension(d => d.genre)
-    oscarsDimension = ndx.dimension(d => d.oscars)
-    bubbleDimension = ndx.dimension(d => [d.rank, d.nominations, d.name])
-    grossDimension = ndx.dimension(d=> Math.floor(d.gross/50)*50)
+    oscarsDimension = ndx.dimension(d => d.oscars) 
+    bubbleDimension = ndx.dimension(d => [d.rank, d.nominations, d.name]) // pass in the info to be ued in grouping and lebeling
+    grossDimension = ndx.dimension(d=> Math.floor(d.gross/50)*50) // treat gross profits in levels of size 50
     dateDimension = ndx.dimension(d=> d.date)
     rankDimension = ndx.dimension(d=> d.rank)
 

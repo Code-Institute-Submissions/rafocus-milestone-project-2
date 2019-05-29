@@ -9,7 +9,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="static/css/dc.css" />
   <link rel="stylesheet" type="text/css" href="static/css/style.css" />
-  <title>Charts</title>
+  <title>Movies Charts</title>
 </head>
 
 <body>
@@ -38,6 +38,9 @@
       <h1>50 Best Movies of All Time.</h1>
       <p>Using metrics and charts, let's analyse the relationship between the budget, genre, Oscars and
         nominations.</p>
+      <p>Mouse hover to get contextual info</p>
+      <p>Click on the charts to add more filters</p>
+      <p>Click on reset to remove all filters</p>
       <p><a class="btn btn-secondary btn-lg" href="javascript:dc.filterAll(); dc.renderAll();" role="button">Reset
           All</a></p>
     </div>
@@ -81,8 +84,6 @@
     <div class="row">
       <table id="table" class="table table-hover"></table>
     </div>
-
-  </div>
   </div>
   <!-- footer -->
   <footer>
