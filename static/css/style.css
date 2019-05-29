@@ -5,6 +5,9 @@ header{
 .nav a {
     color: white;
 }
+.nav .reset {
+    color: orange;
+}
 .main {
     margin-top: 3rem;
     background-color: #eee;
@@ -22,4 +25,7 @@ footer {
 #barchart3 .x.axis text {
     text-anchor: end !important;
     transform: rotate(-45deg);
+}
+table {
+    margin-top: 3rem;
 }

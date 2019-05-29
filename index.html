@@ -15,69 +15,81 @@
 <body>
   <!-- header -->
   <header class="fixed-top">
-      <div class="container">
-          <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#table">Table</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#barchart2">Barcharts</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
-              </li>
-            </ul>
-      </div>
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#table">Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#barchart2">Barcharts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link reset" href="javascript:dc.filterAll(); dc.renderAll();">Reset Filters</a>
+        </li>
+      </ul>
+    </div>
   </header>
   <!-- main -->
- <div class="main container">
+  <div class="main container">
     <div class="jumbotron">
-        <h1>50 Best Movies of All Time.</h1>
-        <p>Using metrics and charts, let's analyse the relationship between the budget, genre, Oscars and
-            nominations.</p>
-        <p><a class="btn btn-primary btn-lg" href="javascript:dc.filterAll(); dc.renderAll();" role="button">Reset
-                All</a></p>
+      <h1>50 Best Movies of All Time.</h1>
+      <p>Using metrics and charts, let's analyse the relationship between the budget, genre, Oscars and
+        nominations.</p>
+      <p><a class="btn btn-primary btn-lg" href="javascript:dc.filterAll(); dc.renderAll();" role="button">Reset
+          All</a></p>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-          <div id="bubblechart"></div>
-        </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-5">
-          <div class="row">
+      <div class="col-lg-6">
+        <h4 class="text-center">Rank, Nominations, Oscars:</h4>
+        <div id="bubblechart"></div>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-5">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">Genre:</h4>
             <div id="piechart1"></div>
           </div>
-          <div class="row">
+        </div>
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">Oscars:</h4>
             <div id="piechart2"></div>
           </div>
-          <div class="row">
+        </div>
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">Gross ($M) and Total Nominations:</h4>
             <div id="barchart1"></div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div id="barchart2"></div>
-        </div>
-        <div class="col-lg-6">
-          <div id="barchart3"></div>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="text-center">Movies by Genre:</h4>
+        <div id="barchart2"></div>
       </div>
-      <div class="row">
-          <table id="table" class="table table-hover"></table>
+      <div class="col-lg-6">
+        <h4 class="text-center">Total Gross Evolution:</h4>
+        <div id="barchart3"></div>
       </div>
-    
-      </div>
- </div>
+    </div>
+    <div class="row">
+      <table id="table" class="table table-hover"></table>
+    </div>
+
+  </div>
+  </div>
   <!-- footer -->
   <footer>
-      <div class="text-center container">
-          <h5>Rafocus</h5>
-          <p>Copyright &copy; 2019</p>
-  </div>
+    <div class="text-center container">
+      <h5>Rafocus</h5>
+      <p>Copyright &copy; 2019</p>
+    </div>
   </footer>
 
 

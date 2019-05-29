@@ -11,7 +11,7 @@ function makeGraph(error, data) {
     genreDimension = ndx.dimension(d => d.genre)
     oscarsDimension = ndx.dimension(d => d.oscars)
     bubbleDimension = ndx.dimension(d => [d.rank, d.nominations, d.name])
-    grossDimension = ndx.dimension(d=> Math.floor(d.gross/10)*10)
+    grossDimension = ndx.dimension(d=> Math.floor(d.gross/50)*50)
     dateDimension = ndx.dimension(d=> d.date)
     rankDimension = ndx.dimension(d=> d.rank)
 
@@ -73,8 +73,8 @@ function makeGraph(error, data) {
                     .height(300)
                     .dimension(grossDimension)
                     .group(grossGroup)
-                    .x(d3.scale.linear().domain([0, 100]))
-                    .xUnits(dc.units.fp.precision(10))
+                    .x(d3.scale.linear().domain([0, 660]))
+                    .xUnits(dc.units.fp.precision(50))
                     barchart1.xAxis().ticks(5)
                     barchart1.yAxis().ticks(5)
 
