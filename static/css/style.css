@@ -1,0 +1,10 @@
+header{
+    height: 3rem;
+    background-color: rgb(97, 111, 126);
+}
+.nav a {
+    color: white;
+}
+.main {
+    margin-top: 3rem;
+}
