@@ -13,6 +13,7 @@ function makeGraph(error, data) {
     bubbleDimension = ndx.dimension(d => [d.rank, d.nominations, d.name])
     grossDimension = ndx.dimension(d=> Math.floor(d.gross/10)*10)
     dateDimension = ndx.dimension(d=> d.date)
+    rankDimension = ndx.dimension(d=> d.rank)
 
     // define groups
     genreGroup = genreDimension.group()
@@ -94,6 +95,22 @@ function makeGraph(error, data) {
                     .x(d3.scale.ordinal().domain([]))
                     .xUnits(dc.units.ordinal)
                     barchart3.xAxis().ticks(10)
+
+    let datatable1 = dc.dataTable("#table")
+                    .width(800)
+                    .height(200)
+                    .dimension(rankDimension)
+                    .group(d=> d)
+                    .showGroups(false)
+                    .size(10)
+                    .columns(['rank',
+                                'name',
+                                'date',
+                                'oscars',
+                                'nominations',
+                                'gross',
+                                'genre'
+                            ])
 
 
     dc.renderAll();
