@@ -14,40 +14,63 @@
 
 <body>
   <!-- header -->
-  <header></header>
+  <header>
+      <div class="container">
+          <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#table">Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#barchart2">Barcharts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+              </li>
+            </ul>
+      </div>
+  </header>
   <!-- main -->
-  <h1>charts</h1>
-  <div class="row">
-    <div class="col-lg-6">
-      <div id="bubblechart"></div>
-    </div>
-    <div class="col-lg-6">
-      <div class="row">
-        <div id="piechart1"></div>
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+          <div id="bubblechart"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div id="piechart1"></div>
+          </div>
+          <div class="row">
+            <div id="piechart2"></div>
+          </div>
+          <div class="row">
+            <div id="barchart1"></div>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div id="piechart2"></div>
+        <div class="col-lg-6">
+          <div id="barchart2"></div>
+        </div>
+        <div class="col-lg-6">
+          <div id="barchart3"></div>
+        </div>
       </div>
       <div class="row">
-        <div id="barchart1"></div>
+          <table id="table" class="table table-hover"></table>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-      <div id="barchart2"></div>
-    </div>
-    <div class="col-lg-6">
-      <div id="barchart3"></div>
-    </div>
-  </div>
-  <div class="row">
-      <table id="table" class="table table-hover"></table>
-  </div>
-
-  </div>
+    
+      </div>
+ </div>
   <!-- footer -->
-  <footer></footer>
+  <footer>
+      <div class="text-center container">
+          <h5>Rafocus</h5>
+          <p>Copyright &copy; 2019</p>
+  </div>
+  </footer>
 
 
 
