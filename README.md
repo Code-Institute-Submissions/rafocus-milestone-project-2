@@ -1,7 +1,7 @@
 # Milestone project 2
 ## visualization dashboard of the 50 best movies of all time
 
-This one-page website is designed to present the 50 best movies accroding to IMDB in a visual way, allowing us to analyse and add filters, have contextual information, hopefuly help us to have some insight.
+This one-page website is designed to present the 50 best movies according to IMDB in a visual way, allowing us to analyse and add filters, have contextual information, hopefuly help us to have some insight.
 
 The website can be viewed here:
 https://rafocus.github.io/milestone-project-2/
@@ -10,14 +10,17 @@ https://rafocus.github.io/milestone-project-2/
 
 The website site interface allows the user to apply filters to vizualize different aspects of the data.
 
-* Design and colour scheme: a minimalist colour scheme is used to increase contrast and avoid distraction and let the colorful charts express the insights.
+* Colour scheme: a minimalist colour scheme is used to enhance the contrast and avoid distraction and let the colorful charts standout.
+* Design: doing the best to compromise between the user experience and the quality of data presented, some design choices were decided:
+ - The design is fully responsive with break points in the medium size screen range.
+ - The bubble chart was kept as it is a rich source of information despite the challenge to fit it on the screen and making it responsive, the longer axis was made vertical minimizing scrolling.
 
-* user stories:
+* User stories:
 
-- A user can see all the dataset in the bubble chart, the evolution of gross profits through the years, see the total nominations for the Oscars for different film genres.
-- A user can use most of charts to filter the data to one or more dimensions or aspects of the dataset.
+- A user can see many dimensions at the same time, the evolution of gross profits through the years, see the total nominations for the Oscars for different film genres.
+- A user can use most of the charts to filter the data to one or more dimensions or aspects of the dataset.
 - The user can cancel all filters by clicking on the "reset all" button.
-- A user looking for aditional inforation for a particular record of the dataset can use a mouse hover over that record.
+- A user looking for aditional information for a particular record of the dataset can use a mouse hover over that record.
 
 * Wireframes: 
 
@@ -27,7 +30,7 @@ The website site interface allows the user to apply filters to vizualize differe
 
 ### Existing Features
 
-* Vizualization of the dataset with different types of graphics including pie charts, bar charts and a bubble chart.
+* Vizualization of the dataset with different types of graphics including pie charts, bar charts, data table, and a bubble chart.
 * Applying filters by clicking on the graphics.
 * Mouse hover to get more informations of particular records of the dataset.
 * Navigation to different parts of the web page.
@@ -38,6 +41,7 @@ The website site interface allows the user to apply filters to vizualize differe
 
 * HTML5
 * CSS
+* JSON
 * Bootstrap 4
 * D3.js
 * DC.js
@@ -45,21 +49,23 @@ The website site interface allows the user to apply filters to vizualize differe
 
 ## Development Tools:
 
-* Local development, testing, deployment.
-* Vscode editor
-* Git for versioning
-* Python http.server for testing
+* Local development, testing.
+* Vscode editor.
+* Git for versioning.
+* Python http.server for testing.
 
 ## Testing
 
-* testing was done localy and online, all functionalities were successfully tested with the major browsers to check the responsive and correct display and behaviour of the page elements.
+* Every chart was tested individually and part of the whole, adjusting the parameters to make it look at its best.
+* Tested on different screen sizes, desktop, tablet, mobile.
+* Responsiveness is limited to 2 screen sizes only, large, and small, due to the limitations of the charts.
+* Tested with Chrome, Firefox, Microsoft Edge.
 * The custom HTML/CSS code was validated using W3C tool.
 
 ## Deployment
 
-The website was depoyed to Github pages. Git was used locally and remotely for version control.
-
-https://rafocus.github.io/milestone-project-2/
+- To deploy online, clone the project, deploy to a web server (github pages is adequate for this purpose), the file structure should be respected.
+- For local development, clone the project, test and deploy with a lightweight development server like Python or Node http server.
 
 ## Credits
 
@@ -69,4 +75,4 @@ Rafocus
 
 ### Content
 
-The data JSON file was created from the list published on IMDB (https://www.imdb.com/list/ls055592025/)
+The data JSON file was created usoing the list published on IMDB (https://www.imdb.com/list/ls055592025/).

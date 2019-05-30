@@ -5,8 +5,8 @@ header{
 .nav a {
     color: white;
 }
-.nav .reset {
-    color: orange;
+.nav a:hover {
+    color: rgb(148, 144, 144);
 }
 .main {
     margin-top: 3rem;

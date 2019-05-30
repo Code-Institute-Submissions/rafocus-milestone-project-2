@@ -2,7 +2,6 @@ queue()
     .defer(d3.json, "data/films.json")
     .await(makeGraph);
 
-
 function makeGraph(error, data) {
 
     //  create crossfilter instance using the json data
