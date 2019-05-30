@@ -6,15 +6,38 @@ This one-page website is designed to present the 50 best movies accroding to IMD
 The website can be viewed here:
 https://rafocus.github.io/milestone-project-2/
 
+## UX
+
+The website site interface allows the user to apply filters to vizualize different aspects of the data.
+
+* Design and colour scheme: a minimalist colour scheme is used to increase contrast and avoid distraction and let the colorful charts express the insights.
+
+* user stories:
+
+- A user can see all the dataset in the bubble chart, the evolution of gross profits through the years, see the total nominations for the Oscars for different film genres.
+- A user can use most of charts to filter the data to one or more dimensions or aspects of the dataset.
+- The user can cancel all filters by clicking on the "reset all" button.
+- A user looking for aditional inforation for a particular record of the dataset can use a mouse hover over that record.
+
+* Wireframes: 
+
+<img src="static/wireframes/desktop.png" alt="desktop" height="400"/> <img src="static/wireframes/mobile.png" alt="mobile" height="400"/>
+
 ## Features
 
+### Existing Features
+
+* Vizualization of the dataset with different types of graphics including pie charts, bar charts and a bubble chart.
+* Applying filters by clicking on the graphics.
+* Mouse hover to get more informations of particular records of the dataset.
 * Navigation to different parts of the web page.
 * Presentation section to explain the functionality.
-* Reset button, and reset link fixed on the top with the nav bar.
-* Different types of graphics including pie charts, bar charts and a bubble chart.
+* Reset button to cancel all the filters applied.
 
 ## Technologies Used
 
+* HTML5
+* CSS
 * Bootstrap 4
 * D3.js
 * DC.js
