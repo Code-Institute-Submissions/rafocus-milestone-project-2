@@ -8,7 +8,7 @@ https://rafocus.github.io/milestone-project-2/
 
 ## Features
 
-* Navigation to diffenerent parts of the web page.
+* Navigation to different parts of the web page.
 * Presentation section to explain the functionality.
 * Reset button, and reset link fixed on the top with the nav bar.
 * Different types of graphics including pie charts, bar charts and a bubble chart.
