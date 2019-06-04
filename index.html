@@ -22,33 +22,37 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#bubblechart">Bubble Chart</a>
+          <a class="nav-link" href="index.html#movie-rank">Bubble Chart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#barchart2">Bar Charts</a>
+          <a class="nav-link" href="index.html#gross-nominations">Bar Charts</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#table">Data Table</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:dc.filterAll(); dc.renderAll();">Reset
+                All</a>
         </li>
       </ul>
     </div>
   </header>
   <!-- main -->
   <div class="main container">
-    <div class="jumbotron bg-info">
-      <h1>50 Best Movies of All Time.</h1>
+    <div class="info">
+      <h1 class="text-center">50 Best Movies of All Time.</h1>
       <p>Using metrics and charts, let's analyse the relationship between the gross revenue, genre, Oscars and
         nominations.</p>
-      <p>Mouse hover to get contextual information.</p>
-      <p>Click on the charts to add more filters.</p>
-      <p>Click on 'Reset All' to remove all filters.</p>
-      <p><a class="btn btn-secondary btn-lg" href="javascript:dc.filterAll(); dc.renderAll();" role="button">Reset
-          All</a></p>
+      <ul>
+        <li>Mouse hover to get contextual information.</li>
+        <li>Click on the charts to add more filters.</li>
+        <li>Click on 'Reset All' to remove all filters.</li>
+      </ul>
     </div>
     <div class="row">
       <div class="col-lg-6">
         <h4 class="text-center text-muted">Rank, Nominations, Oscars:</h4>
-        <p class="text-center text-muted">X axis: nominations, Y axis: rank, radius: Oscars</p>
+        <p class="text-center text-muted">Colour: Movie, Radius: Oscars</p>
         <div id="movie-rank"></div>
       </div>
       <div class="col-lg-1"></div>
@@ -56,12 +60,14 @@
         <div class="row">
           <div class="col">
             <h4 class="text-center text-muted">Genre:</h4>
+            <p class="text-center text-muted">Number of movies by genre</p>
             <div id="movie-genre"></div>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <h4 class="text-center text-muted">Oscars:</h4>
+            <p class="text-center text-muted">Number of movie by number of Oscar wins</p>
             <div id="movie-oscars"></div>
           </div>
         </div>
@@ -76,13 +82,11 @@
     </div>
     <div class="row">
       <div class="col-lg-6">
-        <h4 class="text-center text-muted">Movies by Genre:</h4>
-        <p class="text-center text-muted">X axis: genre, Y axis: number of movies</p>
-        <div id="genre-totals"></div>
+        <h4 class="text-center text-muted">Oscars by Genre:</h4>
+        <div id="genre-oscars"></div>
       </div>
       <div class="col-lg-6">
-        <h4 class="text-center text-muted">Total Gross Evolution:</h4>
-        <p class="text-center text-muted">X axis: year, Y axis: gross</p>
+        <h4 class="text-center text-muted">Total Gross Revenue Evolution:</h4>
         <div id="year-gross"></div>
       </div>
     </div>

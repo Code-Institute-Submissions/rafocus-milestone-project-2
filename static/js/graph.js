@@ -12,7 +12,7 @@ function makeGraph(error, data) {
     show_movie_genre(ndx)
     show_movie_oscars(ndx)
     show_gross_nominations(ndx)
-    show_genre_totals(ndx)
+    show_genre_oscars(ndx)
     show_year_gross(ndx)
     show_datatable(ndx)
 
@@ -42,6 +42,8 @@ function show_movie_rank(ndx) {
         .r(d3.scale.linear().domain([0, 11]).range([1, 12]))
         .y(d3.scale.linear().domain([1, 50]).range([1, 50]))
         .x(d3.scale.linear().domain([0, 14]).range([1, 15]))
+        .yAxisLabel("Rank")
+        .xAxisLabel("Nominations")
 }
 
 function show_movie_genre(ndx) {
@@ -89,21 +91,25 @@ function show_gross_nominations(ndx) {
         .group(grossGroup)
         .x(d3.scale.linear().domain([0, 660]))
         .xUnits(dc.units.fp.precision(50))
+        .yAxisLabel("Gross")
+        .xAxisLabel("Total Nominations")
         .yAxis().ticks(5)
+        
 
 }
 
-function show_genre_totals(ndx) {
+function show_genre_oscars(ndx) {
     var genreDimension = ndx.dimension(d => d.genre)
-    var genreGroup = genreDimension.group()
+    var genreGroup = genreDimension.group().reduceSum(d=> d.oscars)
 
-    dc.barChart("#genre-totals")
+    dc.barChart("#genre-oscars")
         .width(600)
         .height(300)
         .dimension(genreDimension)
         .group(genreGroup)
         .x(d3.scale.ordinal().domain([]))
         .xUnits(dc.units.ordinal)
+        .yAxisLabel("Number of Oscars")
         .yAxis().ticks(5)
 }
 
@@ -118,6 +124,7 @@ function show_year_gross(ndx) {
         .group(dateGroup)
         .x(d3.scale.ordinal().domain([]))
         .xUnits(dc.units.ordinal)
+        .yAxisLabel("Gross")
         .xAxis().ticks(10)
 }
 

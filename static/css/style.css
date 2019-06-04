@@ -22,14 +22,17 @@ footer {
     height: 6rem;
     background-color: rgb(97, 111, 126);
 }
-#barchart2 .x.axis text {
+#genre-oscars .x.axis text {
     text-anchor: end !important;
     transform: rotate(-20deg);
 }
-#barchart3 .x.axis text {
+#year-gross .x.axis text {
     text-anchor: end !important;
     transform: rotate(-45deg);
 }
 table {
     margin-top: 3rem;
+}
+.info {
+    padding: 2rem;
 }
