@@ -15,7 +15,7 @@ The website site interface allows the user to apply filters to vizualize differe
  - The design is fully responsive with break points in the medium size screen range.
  - The bubble chart was kept as it is a rich source of information despite the challenge to fit it on the screen and making it responsive, the longer axis was made vertical minimizing scrolling.
 
-* User stories:
+### User stories:
 
 - A user can see many dimensions at the same time, the evolution of gross profits through the years, see the total nominations for the Oscars for different film genres.
 - A user can use most of the charts to filter the data to one or more dimensions or aspects of the dataset.
@@ -24,7 +24,7 @@ The website site interface allows the user to apply filters to vizualize differe
 
 * Wireframes: 
 
-<img src="static/wireframes/large.png" alt="desktop" height="400"/> <img src="static/wireframes/small.png" alt="mobile" height="400"/>
+<img src="static/wireframes/large.png" alt="desktop" height="400"/> <img align="right" src="static/wireframes/small.png" alt="mobile" height="400"/>
 
 ## Features
 
