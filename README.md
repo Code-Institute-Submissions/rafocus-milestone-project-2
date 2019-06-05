@@ -24,7 +24,7 @@ The website site interface allows the user to apply filters to vizualize differe
 
 * Wireframes: 
 
-<img src="static/wireframes/desktop.png" alt="desktop" height="400"/> <img src="static/wireframes/mobile.png" alt="mobile" height="400"/>
+<img src="static/wireframes/large.png" alt="desktop" height="400"/> <img src="static/wireframes/small.png" alt="mobile" height="400"/>
 
 ## Features
 
