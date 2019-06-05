@@ -94,13 +94,13 @@ function show_gross_nominations(ndx) {
         .yAxisLabel("Gross")
         .xAxisLabel("Total Nominations")
         .yAxis().ticks(5)
-        
+
 
 }
 
 function show_genre_oscars(ndx) {
     var genreDimension = ndx.dimension(d => d.genre)
-    var genreGroup = genreDimension.group().reduceSum(d=> d.oscars)
+    var genreGroup = genreDimension.group().reduceSum(d => d.oscars)
 
     dc.barChart("#genre-oscars")
         .width(600)
@@ -137,7 +137,7 @@ function show_datatable(ndx) {
         .dimension(rankDimension)
         .group(d => d)
         .showGroups(false)
-        .size(10)
+        .size(10) //show only the first 10 records
         .columns(['rank',
             'name',
             'date',

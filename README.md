@@ -1,5 +1,5 @@
 # Milestone project 2
-## visualization dashboard of the 50 best movies of all time
+## Visualization dashboard of the 50 best movies of all time
 
 This one-page website is designed to present the 50 best movies according to IMDB in a visual way, allowing us to analyse and add filters, have contextual information, hopefuly help us to have some insight.
 
@@ -8,21 +8,21 @@ https://rafocus.github.io/milestone-project-2/
 
 ## UX
 
-The website site interface allows the user to apply filters to vizualize different aspects of the data.
+The website interface allows the user to apply filters to vizualize different aspects of the data.
 
-* Colour scheme: a minimalist colour scheme is used to enhance the contrast and avoid distraction and let the colorful charts standout.
-* Design: doing the best to compromise between the user experience and the quality of data presented, some design choices were decided:
- - The design is fully responsive with break points in the medium size screen range.
- - The bubble chart was kept as it is a rich source of information despite the challenge to fit it on the screen and making it responsive, the longer axis was made vertical minimizing scrolling.
+* Colour scheme: a minimalist colour scheme is used to enhance the contrast, avoid distraction and let the charts standout.
+* Design: finding the best compromise between the user experience and the quality of data presented, some design choices were decided:
+ - The design is responsive with break points in the large size screen range.
+ - The bubble chart is a rich source of information despite the challenge to fit it on the screen and making it responsive, the longer axis was made vertical minimizing scrolling.
 
 ### User stories:
 
 - A user can see many dimensions at the same time, the evolution of gross profits through the years, see the total nominations for the Oscars for different film genres.
 - A user can use most of the charts to filter the data to one or more dimensions or aspects of the dataset.
-- The user can cancel all filters by clicking on the "reset all" button.
+- The user can cancel all filters by clicking on the "Reset All" button.
 - A user looking for aditional information for a particular record of the dataset can use a mouse hover over that record.
 
-* Wireframes: 
+### Wireframes: 
 
 <img src="static/wireframes/large.png" alt="desktop" height="400"/> <img align="right" src="static/wireframes/small.png" alt="mobile" height="400"/>
 
@@ -32,7 +32,7 @@ The website site interface allows the user to apply filters to vizualize differe
 
 * Vizualization of the dataset with different types of graphics including pie charts, bar charts, data table, and a bubble chart.
 * Applying filters by clicking on the graphics.
-* Mouse hover to get more informations of particular records of the dataset.
+* Mouse hover to get more information of particular records of the dataset.
 * Navigation to different parts of the web page.
 * Presentation section to explain the functionality.
 * Reset button to cancel all the filters applied.
